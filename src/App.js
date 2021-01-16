@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HelloWorld from './state-drills/HelloWorld';
-import Bomb from './state-drills/Bomb';
+import HelloWorld2 from './state-drills/HelloWorld2';
+import Bomb2 from './state-drills/Bomb2';
 import RouletteGun from './state-drills/RouletteGun';
 import './App.css'
 
@@ -9,9 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <h2>Hello World</h2>
-        <HelloWorld />
+        <HelloWorld2 />
         <h2>Bomb</h2>
-        <Bomb />
+        <Bomb2 />
         <h2>Roulette Gun</h2>
         <RouletteGun bulletInChamber={6} />
       </div>
